@@ -1,4 +1,11 @@
 # Hellscream
+
+![image](https://img.shields.io/github/license/smh2274/Hellscream)
+![image](https://badgen.net/github/release/smh2274/Hellscream)
+![image](https://goreportcard.com/badge/github.com/smh2274/Hellscream)
+![hellscream integration test](https://github.com/smh2274/Hellscream/workflows/hellscream%20integration%20test/badge.svg)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/12d2314134094a54a6b9f3fef01bf5e3)](https://www.codacy.com/gh/smh2274/Hellscream/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=smh2274/Hellscream&amp;utm_campaign=Badge_Grade)
+
 ## file server
 
 ![image](https://tse2-mm.cn.bing.net/th/id/OIP.UJkwAzrKMmv5TBxF_Ro37wAAAA?pid=Api&rs=1)
@@ -33,7 +40,6 @@
               /Azeroth/Hellscream/file/avatar
        ```
        you can access 127.0.0.1:8088/hellscream/protect/avatar/xxx.txt with jwt
-  
   * open access
     *  you add map struct into file.public, the key is url, value is file path
         
