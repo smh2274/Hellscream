@@ -1,0 +1,16 @@
+mode: debug
+server:
+  address: 127.0.0.1
+  port: 8808
+ssl:
+  key: internal/ssl/domain.key
+  cert: internal/ssl/domain.crt
+file:
+  public:
+    txt:
+      internal/test
+    banner:
+      internal/test
+  protect:
+    avatar:
+      internal/test
