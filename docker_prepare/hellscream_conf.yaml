@@ -1,0 +1,14 @@
+mode: release
+server:
+  address: 127.0.0.1
+  port: 8888
+ssl:
+  key: /Azeroth/Hellscream/ssl/domain.key
+  cert: /Azeroth/Hellscream/ssl/domain.crt
+file:
+  public:
+    banner:
+      /Azeroth/Hellscream/file/banner
+  protect:
+    avatar:
+      /Azeroth/Hellscream/file/avatar
